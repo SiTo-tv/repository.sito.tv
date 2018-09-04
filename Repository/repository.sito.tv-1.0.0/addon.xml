@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<addon id="repository.sito.tv" name="SiTo.tv Repository" version="1.0.0" provider-name="SiTo.tv">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
+  <extension point="xbmc.addon.repository" name="SiTo.tv Repository">
+    <info compressed="true">https://sito.tv/Plugins/addons.xml</info>
+    <checksum>https://sito.tv/Plugins/addons.xml.md5</checksum>
+    <datadir zip="true">https://sito.tv/Plugins</datadir>
+    <hashes>true</hashes>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>SiTo.tv addon repository repository.</summary>
+    <description>Stream public domain and other non-copyrighted movies and TV-shows for free.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
